@@ -14,4 +14,5 @@ Oracle
 Microsoft SQL Server
 
 
-
+・RDSを利用したフェイルオーバ構成
+→フェイルオーバは手動で実施することができる。
