@@ -5,17 +5,17 @@
 
 ・MySQLやOracleなどの6つのデータベースエンジンから選択することができる。
 リレーショナルデータベースを移行する際は、RDSへの移行を検討することが最適。
-Amazon Aurora
-My SQL
-PostgreSQL
-MariaDB
-Oracle
-Microsoft SQL Server
-
+--------------------
+①Amazon Aurora
+②My SQL
+③PostgreSQL
+④MariaDB
+⑤Oracle
+⑥Microsoft SQL Server
+-----------------------
 
 ・RDSを利用したフェイルオーバ構成
 →フェイルオーバは手動で実施することができる。
-
 
 ・RDSにおいてプライマリデータベースが応答しない場合に自動フェールオーバーを実行する機能
 →マルチAZ
@@ -26,3 +26,5 @@ Microsoft SQL Server
 
 
 ・RDSは利用している途中でインスタンスタイプを縮小することができる。
+
+・RDSはACIDトランザクションをサポートする、可用性が高く一貫性のあるデータベース。
