@@ -1,4 +1,12 @@
 ● CloudWatch
+
+---------------特徴--------------------
+・標準（組み込み）メトリックスの収集、可視化
+・カスタムメトリックスの収集、可視化
+・ログの収集
+・アラーム
+------------------------------------
+
 ・AWS リソースと AWS で実行するアプリケーションのモニタリングサービス。
 ・AWSのEC2インスタンスのCPU使用率を監視するために利用するべきサービス
 ・CloudWatchでは、コストが設定したしきい値を超えた場合にトリガーされる請求アラームを設定できる。メールアドレスへのSNS通知をトリガーするように設定することもできる。
@@ -6,7 +14,6 @@
 ・EC2インスタンスから重要なメトリックを収集するのに役立つAWSサービス
 
 ＊CloudWatch Logsを使用して、Amazon Elastic Compute Cloud (Amazon EC2) インスタンス、AWS CloudTrail、Route 53、およびその他のソースのログファイルを監視、保存、アクセスができる。
-
 
 
 
@@ -224,6 +231,18 @@
 ・Amazon Elastic Container Service (ECS) と Amazon Elastic Kubernetes Service (EKS)両方で動作する、コンテナ向けサーバーレスコンピューティングエンジンです。
 
 ・サーバーレスとなるAWSリソース
+
+
+●Kinesis
+・ストリーミングデータをリアルタイムで取得、処理、分析を行う
+
+
+●AWS Directory Service
+・Simple ADにより新規ディレクトリーを構築する。
+・MS Active DirectoryをAWSに構築する。
+・AD Connectorにより既存のActive Directiryと連携する。
+
+
 
 
 ●NLB
